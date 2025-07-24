@@ -1,7 +1,6 @@
 # Build output
 bin/
 obj/
-[Bb]uild/
 [Ll]og/
 [Tt]est[Rr]esult*/
 
@@ -10,28 +9,13 @@ obj/
 *.user
 *.suo
 
-# Rider / JetBrains
-.idea/
-
 # OS
 .DS_Store
 Thumbs.db
 
-# Publish artifacts
-*.zip
+# Publish
 *.exe
+*.zip
 *.msi
-
-# dotnet
 *.nupkg
-project.lock.json
 
-# Resharper
-_ReSharper*/
-*.[Rr]e[Ss]harper
-
-# Other
-*.cache
-*.psess
-*.vsp
-*.vspx
